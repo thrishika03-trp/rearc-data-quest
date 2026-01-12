@@ -6,7 +6,16 @@
 https://download.bls.gov/pub/time.series/pr/
 
 ### Public S3 Location
-https://rearc-quest-thrishika-1234.s3.amazonaws.com/bls/pr/
+
+S3 prefix (canonical location):
+s3://rearc-quest-thrishika-1234/bls/pr/
+
+Public HTTP examples (downloadable objects):
+- https://rearc-quest-thrishika-1234.s3.amazonaws.com/bls/pr/pr.data.0.Current
+- https://rearc-quest-thrishika-1234.s3.amazonaws.com/bls/pr/pr.series
+
+Note: Amazon S3 does not provide a browsable directory view by default.  
+Public access is validated using direct object URLs.
 
 ### Description
 For Part 1, I implemented a Python script that programmatically syncs the BLS PR time-series datasets into Amazon S3.
