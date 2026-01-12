@@ -37,3 +37,12 @@ s3://rearc-quest-thrishika-1234/api/population/population.json
 
 Script: `src/part2_fetch_population_api.py`
 
+---
+
+## Part 3 – Analytics Notebook
+Notebook: `notebooks/part3_analysis.ipynb`
+
+Outputs included:
+- Mean and standard deviation of annual US population for 2013–2018
+- Best year per `series_id` (max annual sum of quarterly `value`)
+- Joined report for `series_id = PRS30006032`, `period = Q01`, with population (when available)
